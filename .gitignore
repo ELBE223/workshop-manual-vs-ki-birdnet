@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Secrets
+.Renviron
+.env
+
+# Audio / große Dateien
+audio/
+*.wav
+*.mp3
+
+# Outputs (falls später erzeugt)
+workshop_outputs/
+outputs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+
+# Python
+__pycache__/
+.venv/
